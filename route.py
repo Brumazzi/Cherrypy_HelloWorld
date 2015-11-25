@@ -1,11 +1,12 @@
 #!/usr/bin/env python2
 # *-* coding:utf-8 *-*
 
+__version__ = '0.1-Beta'
+
 class Route(object):
-    __slots__ = ['rfile','version']
+    __slots__ = ['rfile']
 
     def __init__(self):
-        self.version = '0.1-Beta'
         self.rfile = {}
 
     # Armazena o caminho do arquivo html
