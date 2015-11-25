@@ -2,6 +2,10 @@ Cherrypy é uma framework para o desenvolvimento web para python
 é fácil de se usar e bem poderosa sem fugir da sintaxe da lingu
 agem.
 
+Route é uma class criada apenas para ler as paginas HTML, ainda
+na vesões Beta, será possivel fazer insersão dinamica de conteu
+do em uma versão estável.
+
 Autor: Daniel Borges Brumazzi
 Twitter: brumazzi_daniel
 Instagram: instagram.com/Brumazzi_Daniel

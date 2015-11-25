@@ -2,9 +2,10 @@
 # *-* coding:utf-8 *-*
 
 class Route(object):
-    __slots__ = ['rfile']
+    __slots__ = ['rfile','version']
 
     def __init__(self):
+        self.version = '0.1-Beta'
         self.rfile = {}
 
     # Armazena o caminho do arquivo html
